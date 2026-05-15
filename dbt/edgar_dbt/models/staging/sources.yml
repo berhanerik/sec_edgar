@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: project-0ed3a844-6161-46a7-823
+    schema: raw
+    tables:
+      - name: assets_10q
+      - name: company_tickers
+      - name: submissions
