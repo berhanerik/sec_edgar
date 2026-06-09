@@ -1,0 +1,19 @@
+name: wit_data_project
+version: '1.0.0'
+config-version: 2
+
+profile: wit_data_project
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  wit_data_project:
+    marts:
+      +materialized: table
+      +schema: mart2

@@ -1,0 +1,12 @@
+wit_data_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: project-0ed3a844-6161-46a7-823
+      dataset: mart2
+      location: EU
+      threads: 4
+      timeout_seconds: 300
+      priority: interactive

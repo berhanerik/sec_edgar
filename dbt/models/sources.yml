@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw2
+    database: project-0ed3a844-6161-46a7-823
+    schema: raw2
+    tables:
+      - name: raw_company_facts
+      - name: raw_companies
+      - name: raw_companies_sector
